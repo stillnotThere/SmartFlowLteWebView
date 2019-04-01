@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
         val demoWebView :WebView    =   findViewById(R.id.sfwebView)
 
-        demoWebView.webViewClient   =   WebViewClient()                 //Allowing page navigation and disable new page
+        demoWebView.webViewClient   =   WebViewClient()         //Allowing page navigation and disable new page
 
         Thread.sleep(2000)
 
@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         demoWebView.settings.allowContentAccess   =   true
     }
 
-    fun checkPermissions() {
+    private fun checkPermissions() {
         val toastMessageGranted = "Permissions Granted"
         val toastMessageDenied = "Permissions Denied"
 
