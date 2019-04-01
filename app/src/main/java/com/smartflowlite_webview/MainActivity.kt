@@ -1,7 +1,6 @@
 package com.smartflowlite_webview
 
 import android.Manifest
-import android.content.Context
 import android.content.pm.PackageManager
 import android.os.Bundle
 import android.util.Log
