@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
 
     private var appTAG = "SmartFlow Lite"
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
